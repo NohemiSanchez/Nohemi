@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&family=Poppins:wght@100&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&family=Poppins:wght@100&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&family=Poppins:wght@100&family=Raleway:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+header {
+  display: flex;
+  background-color: #004aad;
+  justify-content: space-between;
+  align-items: center;
+}
+header a {
+  font-size: 15px;
+  padding-right:10%;
+  text-decoration: none;
+  font-family: 'Vina Sans', cursive; 
+  color: rgb(241, 240, 239);
+  background-color: #004aad;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  /* background-color: rgb(122, 136, 199); */
+}
+.contenedor p {
+  width: 90%;
+  font-size: 50px;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+}
+
+#que {
+  background-color: #4c9db2;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  color: blanchedalmond;
+  margin: 20px 0px;
+}
+#que iframe {
+  padding: 10px;
+  margin: 10px;
+}
+.contenedor img {
+  border-radius: 50%;
+  margin: 10%;
+}
+#terapias {
+  background-color: #c8a443;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+}
+#terapias iframe {
+  padding: 10px;
+  margin: 10px;
+}
+.contenedor li {
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+  color: blanchedalmond;
+}
+#Datos {
+  background-color: #a64b22;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0px;
+}
+#Datos iframe {
+  padding: 10px;
+  margin: 10px;
+}
+#signos {
+  background-color: #a43154;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0px;
+}
+#signos iframe {
+  padding: 10px;
+  margin: 10px;
+}
+#apoyos {
+  background-color: #b28cb0;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 11px;
+  font-family: "Roboto", sans-serif;
+  margin: 20px 0px;
+}
+#apoyos iframe {
+  padding: 10px;
+  margin: 10px;
+}
+#contactos {
+  background-color: #859b24;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0px;
+}
+#contactos iframe {
+  padding: 10px;
+  margin: 10px;
+}
+.contenedor p {
+  font-size: 11px;
+  font-family: "Roboto", sans-serif;
+  color: antiquewhite;
+}
+.contenedor h1 {
+  font-size: 20px;
+  
+  font-family: 'Yeseva One', cursive;
+  color: blanchedalmond;
+}
+
+#contactos ul {
+  list-style: none;
+  display:block;
+  flex-direction: column;
+  align-items: center;
+}
+.button {
+  color: aqua;
+}
+
+#contenido1,#contenido2,#contenido3,#contenido4,#contenido5,#contenido6{
+  display: none;
+}
+#menu{
+  display: none;
+}
+#mnu{
+  display: none;
+}
+@media (max-width: 768px) { /* Ajusta el tamaño máximo según tus necesidades */
+  header a{
+    display: none; /* Ocultar el header en pantallas de celular */
+  }
+  #menu{
+    display: block;
+    height: 50px;
+    margin: 10%;
+  }
+  #mnu{
+    display:block;
+    position:fixed;
+    height: 100vh;
+    width: 100vh;
+    padding: 20px;
+    background-color: cadetblue;
+    z-index: 99;
+    color: black;
+    left: 0;
+    transition: 500 ease;
+  }
+  #mnu ul{
+    list-style: none;
+  }
+  #mnu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+  }
+
+}
